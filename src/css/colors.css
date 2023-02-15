@@ -1,0 +1,30 @@
+/* src\css\colors.css */
+
+/* color name */
+.yellow {
+    color: yellow;
+}
+
+/* hex code */
+.green {
+    color: #00ff00;
+}
+
+/* rgb */
+.red {
+    color: rgb(255, 0, 0);
+}
+
+/* background color */
+.black {
+    background-color: black;
+}
+
+/* opacity */
+.glass {
+    background-color: rgba(200, 100, 100, 0.3);
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    margin-left: 30px;
+}

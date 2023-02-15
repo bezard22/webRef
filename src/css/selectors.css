@@ -1,0 +1,51 @@
+/* src\css\selectors.css */
+
+/* universal selector */
+* {
+    color: black;
+}
+
+/* Type Selector */
+p {
+    text-decoration: line-through;
+}
+
+h1, h2, h3 {
+    text-decoration: overline;
+}
+
+/* class selector */
+.red {
+    color: red;
+}
+
+h1.blue {
+    color: blue;
+    text-decoration: none;
+}
+
+/* id selector */
+#green {
+    color: green;
+}
+
+h2#orange {
+    color: orange;
+    text-decoration: none;
+}
+
+/* child selector */
+div>p {
+    background-color: purple;
+}
+
+/* descendant selector */
+div span {
+    background-color: aqua;
+}
+
+/* adjacent selector */
+p+h3 {
+    color: yellow;
+    text-decoration: none;
+}
