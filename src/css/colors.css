@@ -28,3 +28,13 @@
     position: absolute;
     margin-left: 30px;
 }
+
+/* hsl/hsla */
+.hsl {
+    color: hsla(143, 87%, 42%);
+}
+
+.hsla {
+    background-color: hsla(143, 87%, 42%, 0.123);
+}
+

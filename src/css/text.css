@@ -1,0 +1,90 @@
+/* src/css/text.css */
+
+/* typeface */
+.serif {
+    font-family: serif;
+}
+
+.sans-serif {
+    font-family: sans-serif;
+}
+
+.monospace {
+    font-family: monospace;
+}
+
+/* font weight */
+.lighter {
+    font-weight: lighter;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.bolder {
+    font-weight: bolder;
+}
+
+.fw100 {
+    font-weight: 100;
+}
+
+.fw900 {
+    font-weight: 900;
+}
+
+/* font style */
+.italic {
+    font-style: italic;
+}
+
+.oblique {
+    font-style: oblique;
+}
+
+.condensed {
+    font-stretch: condensed;
+}
+
+.expanded {
+    font-stretch: expanded;
+}
+
+/* font family can list multiple, browser will display first font that the system supports */
+.ff {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+/* font size */
+.fs1px {
+    font-size: 1px;
+}
+
+.fs10px {
+    font-size: 10px;
+}
+
+.fs100px {
+    font-size: 100px;
+}
+/* % is relative to default size */
+.fs50prc {
+    font-size: 50%;
+}
+
+.fs200prc {
+    font-size: 200%;
+}
+/* em refers to the standard width of the letter m */
+.fs2em {
+    font-size: 2em;
+}
+
+.fs10em {
+    font-size: 10em;
+}
+
+.fs12pt {
+    font-size: 12pt;
+}
